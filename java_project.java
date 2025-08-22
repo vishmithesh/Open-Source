@@ -15,7 +15,7 @@ public class java_project extends JFrame implements ActionListener {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        display = new JTextField("0");
+        display = new JTextField(''0");
         display.setEditable(false);
         display.setFont(new Font("Arial", Font.BOLD, 24));
         add(display, BorderLayout.NORTH);
@@ -95,3 +95,4 @@ public class java_project extends JFrame implements ActionListener {
         });
     }
 }
+
